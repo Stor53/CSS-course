@@ -1,10 +1,10 @@
 /********************* main values ******************/
-
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #40514E;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h3 {
 }
 
 hr {
-  margin: 6px auto 0;
+  margin: 100px auto;
   border-top-color: grey;
   border-style: none;
   border-top-style: dotted;
@@ -90,8 +90,12 @@ p {
   line-height: 2;
 }
 
-.description{
+.description {
   padding-bottom: 2px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 2;
 }
 
 .shtml {
@@ -117,32 +121,34 @@ p {
 
 .css-image {
   width: 25%;
-  float: right ;
+  float: right;
   margin-left: 30px;
 }
 
-.btn{
-	background-color:#f38ba0;
-	border-radius:28px;
-	border:1px solid #b5eaea;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Courier New;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0 1 0 #b5eaea;
-}
-.btn:hover {
-	background-color:#b5eaea;
-}
-.btn:active {
-	position:relative;
-	top:3px;
+.btn {
+  background-color: #f38ba0;
+  border-radius: 28px;
+  border: 1px solid #b5eaea;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 17px;
+  padding: 16px 31px;
+  margin: 20px 0;
+  text-decoration: none;
+  text-shadow: 0 1 0 #b5eaea;
 }
 
-.copyright
-{
+.btn:hover {
+  background-color: #b5eaea;
+}
+
+.btn:active {
+  position: relative;
+  top: 3px;
+}
+
+.copyright {
   font-size: 1.25rem;
 }
